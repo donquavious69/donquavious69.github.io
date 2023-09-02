@@ -1,0 +1,72 @@
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    margin: 0 auto; display:block;
+    text-size-adjust: 5;
+    height:40px;
+    width:180px;
+    border-radius: 15px 15px 15px 15px;
+    border: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 150, 255);
+    color:rgb(255, 255, 255);
+}
+
+.mainbutton {
+    margin: 0 auto; display:block;
+    text-size-adjust: 5;
+    height:60px;
+    width:380px;
+    border-radius: 15px 15px 15px 15px;
+    border: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 150, 255);
+    color:rgb(255, 255, 255);
+    font-size: larger;
+}
+
+.pickstyle {
+    height:40px;
+    width:180px;
+    border-radius: 15px 15px 15px 15px;
+    border: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 150, 255);
+    color:rgb(255, 255, 255);
+}
+
+.pickstyle2 {
+    height:40px;
+    width:180px;
+    border-radius: 15px 15px 15px 15px;
+    border: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(68, 50, 49);
+    color:rgb(255, 255, 255);
+}
+
+.pickstyle3 {
+    height:40px;
+    width:180px;
+    border-radius: 15px 15px 15px 15px;
+    border: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 150, 255);
+    color:rgb(255, 255, 255);
+}
+
+.pickstyle4 {
+    height:40px;
+    width:180px;
+    border-radius: 15px 15px 15px 15px;
+    border: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(68, 50, 49);
+    color:rgb(255, 255, 255);
+}
+
+.mdiv {
+    text-align: right;
+}

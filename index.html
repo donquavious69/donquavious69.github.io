@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rich Guy Space Miner Simulator</title>
+    <title>make donquavious rich sim</title>
 </head>
 <body>
-    <button id="mainbutton" onclick="buttonclick()">
-        NIGGER
+    <style>
+        body {
+          background-image: url('images/background.jpg');
+        }
+    </style>
+
+    <div class="wrapper">
+        <button id="mainbutton" class="mainbutton" onclick="mainclick()">
+            click here to make money
+        </button>
+    </div>
+
+    <script>
+        document.getElementById("mainbutton").disabled = true;
+        setTimeout( document.getElementById("mainbutton").disabled=false , 1500);
+    </script>
+
+    <h2 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        normal pickaxes
+    </h2>
+
+    <button
+     type="button"
+      class="pickstyle"
+       id="flintpickaxebutton"
+        onclick="flintpickaxe_buy()">
+        flint pickaxe [level: 0, cost: 0, income: 0]
+    </button>
+
+    <button class="pickstyle"  id="woodenpickaxebutton" onclick="woodenpickaxe_buy()">
+        wooden pickaxe [level: 0, cost: 0, income: 0]
     </button>
 
     <br><br>
 
-    <button id="upgrade1button" onclick="upgradeone()">
-        upgrade
+    <button class="pickstyle"  id="stonepickaxebutton" onclick="stonepickaxe_buy()">
+        stone pickaxe [level: 0, cost: 0, income: 0]
     </button>
 
-    <br><br>
-
-    <button id="upgrade2button" onclick="upgradetwo()">
-        upgrade 2
+    <button class="pickstyle"  id="limestonepickaxebutton" onclick="limestonepickaxe_buy()">
+        limestone pickaxe [level: 0, cost: 0, income: 0]
     </button>
 
-    <script src="scripts/index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
